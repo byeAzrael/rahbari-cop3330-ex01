@@ -1,0 +1,15 @@
+
+import java.util.Scanner;  
+import java.lang.*;    
+
+public class ex9{
+     public static void main(String []args){
+        Scanner st = new Scanner(System.in);
+        System.out.println("Enter the length and breadth of the ceiling in feet");
+        float length = st.nextFloat();
+        float breadth = st.nextFloat();
+        float area = length * breadth; //calculating area
+        int result = (int) Math.ceil(area / 350); 
+        System.out.println("You will need to purchase "+result+" gallons of paint to cover "+area+" square feet");
+     }
+}
