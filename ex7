@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class ex7
+{
+   public static void main(String[] args) {
+   double length,width,Area;
+   Scanner sc=new Scanner(System.in);
+       System.out.print("What is the length of the room in feet? ");
+       length=sc.nextDouble();
+       System.out.print("What is the width of the room in feet? ");
+       width=sc.nextDouble();
+   Area=length*width;
+    System.out.println("You entered dimension of "+length+" feet by "+width+" feet ");
+   System.out.println("The area is "+Area+" square feet ");
+   Area=Area/10.764;
+   System.out.println("The area is "+Area+" square meter ");
+   }
+}
