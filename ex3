@@ -9,5 +9,5 @@ public class ex3
    System.out.println("Enter the author of the quote:");
    String a = input.nextLine();
 System.out.println('"' + q + '"'+"\n"+a);
-}
+   }
 }
