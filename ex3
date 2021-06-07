@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class ex3
+{
+   public static void main(String[] args)
+   {
+   Scanner input= new Scanner(System.in);
+   System.out.println("Enter a quote:");
+   String q = input.nextLine();
+   System.out.println("Enter the author of the quote:");
+   String a = input.nextLine();
+System.out.println('"' + q + '"'+"\n"+a);
+}
+}
